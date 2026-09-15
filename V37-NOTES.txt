@@ -1,0 +1,8 @@
+ESTELIFE ONE V37 — Unified Treatment Title Scale
+- Fixed long Haartransplantation / FUE / DHI headings overlapping treatment images.
+- Applied the exact same responsive title scale to all 39 treatment detail pages.
+- Treatment image dimensions and 600x450 desktop standard from V36 were not changed.
+- No page-specific title hacks were used; all treatment pages stay proportional.
+- Treatment pages checked: 39
+- Missing standard title structure: 0 []
+- Broken local references: 0

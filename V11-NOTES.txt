@@ -1,0 +1,10 @@
+ESTELIFE ONE V11 — Treatment Photography Upgrade
+
+- Homepage treatment cards replaced with higher quality, treatment-relevant professional photography.
+- Detail page hero images replaced with a different image for each treatment.
+- Homepage image != detail image for every treatment category.
+- Changes applied consistently to German, English and Turkish treatment pages.
+- Image cropping/object-position adjusted for the premium card layout.
+- External Pexels CDN used for high resolution images.
+- Detail pages patched: 30.
+- Broken local references: 0.

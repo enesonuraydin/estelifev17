@@ -1,0 +1,10 @@
+ESTELIFE ONE V13 — Premium Micro-Interactions
+- Treatment cards reveal subcategories on hover without clicking
+- Subtle card lift and image zoom
+- Premium gold underline animation
+- Restrained button shine animation
+- Slight image-panel zoom
+- Keyboard focus reveals the same treatment subcategories
+- Mobile keeps the treatment subcategory tags visible
+- Reduced-motion preference respected
+- Broken local references: 0

@@ -1,0 +1,9 @@
+ESTELIFE ONE V22 — Persistent Hair Mega Menu
+- Fixed Haartransplantation detail pages reverting to an older/limited mega menu.
+- FUE, DHI and Haar-PRP now remain visible in the hair mega-menu on ALL treatment pages.
+- Applied the same fix to English and Turkish treatment pages.
+- Removed the dropdown chevron from treatment-page nav triggers.
+- German treatment pages now retain Impressum between Wissen and Kontakt.
+- Added visible FUE / DHI / Sapphire FUE / Haar-PRP cards to the German hair-transplant overview page.
+- Replaced simpler headers on the newly created FUE, DHI and Hair-PRP pages with the current full premium header / mega-menu.
+- Broken local references: 0

@@ -1,0 +1,13 @@
+ESTELIFE ONE V38 — Treatment Layout Rhythm Standard
+- Audited all 39 treatment detail pages individually.
+- Added one shared treatment-page scope class to all DE/EN/TR treatment pages.
+- Standardized breadcrumbs, eyebrow, H1, lead copy and CTA vertical spacing.
+- Reserved consistent desktop title and lead-copy heights so buttons align between treatments.
+- Standardized fact-card height, label spacing and value line-height.
+- Standardized intro / process / safety section padding and typography.
+- Standardized process card height, heading spacing and paragraph line-height.
+- Standardized final CTA spacing.
+- Mobile keeps the same ratios but removes artificial fixed text heights for readability.
+- Treatment pages checked: 39
+- Pages missing required shared structure: 0 []
+- Broken local references: 0

@@ -1,0 +1,10 @@
+ESTELIFE ONE V5 VISUAL
+
+- DE / EN / TR structure preserved.
+- Individual treatment URLs preserved.
+- WhatsApp floating button uses the WhatsApp icon.
+- V5 visual direction reference is stored at assets/design-reference-v5.png.
+- German homepage avoids unsupported numeric treatment/experience claims.
+- All files remain editable HTML/CSS/JS.
+
+Open index.html to browse the site locally.

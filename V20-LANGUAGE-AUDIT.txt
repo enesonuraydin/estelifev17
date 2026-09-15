@@ -1,0 +1,49 @@
+ESTELIFE ONE V20 — LANGUAGE AUDIT & FIX
+
+A full pass was performed on:
+- Turkish homepage + all Turkish treatment pages
+- English homepage + all English treatment pages
+- Navigation, mobile navigation, CTA labels, treatment metadata, footer labels and accessibility labels
+
+TURKISH CORRECTIONS
+- Natürliche Schönheit. Präzise Ergebnisse. → Doğal Güzellik. Hassas Sonuçlar. (11 occurrences)
+- Medizinisch fundierte Ästhetik. → Tıbbi Temelli Estetik. (11 occurrences)
+- Kontakt → İletişim (9 occurrences)
+- Navigation → Navigasyon (3 occurrences)
+- Haartransplantation → Saç Ekimi (2 occurrences)
+- Laserhaarentfernung → Lazer Epilasyon (1 occurrence)
+- Ergebnis → Sonuç (1 occurrence)
+- Behandlung → Tedavi (1 occurrence)
+
+ENGLISH CORRECTIONS
+- Natürliche Schönheit. Präzise Ergebnisse. → Natural Beauty. Precise Results. (11 occurrences)
+- Medizinisch fundierte Ästhetik. → Medically Grounded Aesthetics. (11 occurrences)
+- NAVIGATION → NAVIGATION (11 occurrences)
+- Behandlung → Treatment (11 occurrences)
+- Kontakt → Contact (9 occurrences)
+- Ergebnis → Result (3 occurrences)
+- Navigation → Navigation (3 occurrences)
+- Haartransplantation → Hair Transplantation (2 occurrences)
+- Laserhaarentfernung → Laser Hair Removal (1 occurrence)
+
+Additional fixes:
+- Corrected lang attributes where needed.
+- Localized German accessibility labels (navigation/menu/WhatsApp).
+- Kept proper names and legally meaningful labels such as “Impressum” where appropriate.
+- German legal Impressum remains German, as requested in V19.
+- Broken local references after audit: 0
+- Remaining common German UI-term audit hits in EN/TR: 6
+
+FINAL SECOND-PASS CORRECTIONS
+- tr/index.html: Falten → Kırışıklık (1)
+- tr/index.html: Lippen → Dudak (4)
+- en/index.html: Falten → Wrinkles (1)
+- en/index.html: Lippen → Lips (4)
+- en/treatments/hydrafacial.html: Haut → Skin (2)
+- en/treatments/soprano-ice-titanium.html: Haut → Skin (2)
+- en/treatments/vampire-facial-prp.html: Haut → Skin (3)
+
+Final remaining common German UI-term hits: 1
+
+PRP final correction: [('\\bgeeignet\\b', 'suitable', 1)]
+Verified final common German UI-term hits: []

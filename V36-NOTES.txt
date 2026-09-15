@@ -1,0 +1,12 @@
+ESTELIFE ONE V36 — TRUE Unified Treatment Images
+- Checked all 39 treatment detail pages individually.
+- Replaced every treatment hero with a treatment-relevant local image.
+- Created standardized 1600x1200 WebP files for every treatment category.
+- Desktop rendered frame is exactly 600x450 on all treatment pages.
+- Tablet frame is exactly 500x375; mobile remains responsive at fixed 4:3.
+- Reduced corners further to 6px desktop / 5px mobile.
+- Removed remaining external Pexels hero dependencies from treatment pages.
+- Treatment pages updated: 39
+- Missing pages/hero wrappers: 0 []
+- Standard asset dimensions: {'botox.webp': (1600, 1200), 'dhi.webp': (1600, 1200), 'exosomen.webp': (1600, 1200), 'fue.webp': (1600, 1200), 'haar-prp.webp': (1600, 1200), 'haartransplantation.webp': (1600, 1200), 'hydrafacial.webp': (1600, 1200), 'lippen-filler.webp': (1600, 1200), 'mesotherapie.webp': (1600, 1200), 'prp.webp': (1600, 1200), 'radiesse.webp': (1600, 1200), 'soprano.webp': (1600, 1200), 'vampir-lifting.webp': (1600, 1200)}
+- Broken local references: 0

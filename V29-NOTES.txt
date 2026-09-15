@@ -1,0 +1,7 @@
+ESTELIFE ONE V29
+- Rebuilt header/footer logo asset from supplied original artwork with transparent background.
+- Added both Instagram profiles to footers across HTML pages.
+- Added both profiles to MedicalClinic sameAs where structured data exists.
+- Added a lightweight Instagram-style homepage preview to DE / EN / TR.
+- Preview uses local optimized site imagery and links out to the two official profiles; no third-party widget dependency.
+- Broken homepage local refs: 0

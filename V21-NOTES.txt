@@ -1,0 +1,11 @@
+ESTELIFE ONE V21 — Turkish Hair Page & Language Fix
+- Fixed German time/duration values still visible in Turkish treatment overview boxes.
+- Replaced 'Schritt für Schritt' with 'Adım Adım' across Turkish treatment pages.
+- Fixed Turkish footer labels and 'Tüm hakları saklıdır'.
+- Added visible FUE / DHI / Sapphire FUE / Saç PRP subcategories to Turkish hair-transplant page.
+- Updated Turkish treatment-page mega menus so hair subcategories are accessible there too.
+- Applied the same hair-subcategory structure to English hair-transplant page.
+- Fixed remaining German duration/unit strings and selected hybrid descriptions in English treatment pages.
+- Remaining German-pattern hits in Turkish audit: 0
+- Remaining German-pattern hits in English audit: 1
+- Broken local references: 0

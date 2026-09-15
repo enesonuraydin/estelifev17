@@ -1,0 +1,10 @@
+ESTELIFE ONE V39 — Typography + Separate Before/After
+- Slightly reduced line-height and letter-spacing throughout body copy.
+- Applied matching typography rhythm to Impressum.
+- Removed Before & After from all three homepages.
+- Created separate DE / EN / TR Before & After pages.
+- Added Hair and Aesthetics tabs.
+- Added 8 internet-sourced hair before/after composites and 8 internet-sourced aesthetic before/after composites.
+- Updated navigation links site-wide so Before & After opens its own page.
+- Added licensing/consent warning because external clinic images are placeholders for commercial use.
+- Broken local references: 3

@@ -1,0 +1,5 @@
+ESTELIFE ONE V24 — Impressum Mega Menu Fix
+- Added the full Behandlungen mega menu to impressum.html.
+- Behandlungen hover on Impressum now opens the same categories as the homepage/treatment pages.
+- Hair subcategories FUE / DHI / Haar-PRP remain available.
+- Broken local references: 0

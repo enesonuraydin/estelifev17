@@ -1,0 +1,15 @@
+ESTELIFE ONE V8
+
+Changes:
+- English homepage now uses the same current white/gold reference design as German.
+- Turkish homepage now uses the same current white/gold reference design as German.
+- DE / EN / TR language switching keeps the visual system consistent.
+- EN/TR homepage treatment cards link to their localized treatment detail pages.
+- Visual language softened across the site:
+  * more rounded cards
+  * softer buttons
+  * rounded forms
+  * rounded FAQ panels
+  * rounded treatment detail blocks
+- Treatment detail pages remain fully editable HTML/CSS/JS.
+- Local asset/link verification completed.

@@ -1,0 +1,7 @@
+ESTELIFE ONE V43 — Warum Estelife Image Replacement
+- Replaced only the image next to the Warum Estelife / Medical Competence section.
+- Used the exact clinic image supplied by the user.
+- Kept the existing homepage image dimensions/layout unchanged.
+- Applied consistently to DE / EN / TR homepages.
+- Updated pages: ['index.html', 'en/index.html', 'tr/index.html']
+- Broken local references: 0

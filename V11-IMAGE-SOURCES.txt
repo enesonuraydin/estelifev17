@@ -1,0 +1,29 @@
+ESTELIFE ONE V11 — Treatment Image Sources
+
+All treatment photography added in this version is served from Pexels image CDN.
+Pexels describes the selected source photos as free to use.
+
+Homepage:
+Hair transplant — https://www.pexels.com/photo/medical-team-performing-hair-transplant-procedure-36963686/
+Botox — https://www.pexels.com/photo/professional-botox-procedure-in-med-spa-37676759/
+Lips & filler — https://www.pexels.com/photo/lips-female-27666913/
+PRP & Exosomes — https://www.pexels.com/photo/professional-aesthetic-treatment-in-clinic-setting-34297951/
+Mesotherapy / microneedling — https://www.pexels.com/photo/microneedling-facial-treatment-procedure-29648626/
+Hydrafacial / facial treatment — https://www.pexels.com/photo/facial-treatment-at-istanbul-aesthetic-clinic-36930786/
+Radiesse / injectable aesthetic — https://www.pexels.com/photo/cosmetologist-in-pink-gloves-making-injection-in-woman-face-4586711/
+Laser hair removal — https://www.pexels.com/photo/professional-laser-hair-removal-treatment-session-29021128/
+
+Detail pages:
+Hair transplant — https://www.pexels.com/photo/close-up-of-a-doctor-wearing-gloves-holding-a-medical-instrument-27138340/
+Botox — https://www.pexels.com/photo/dermatologist-injecting-botox-on-client-s-forehead-7581583/
+Lip filler — https://www.pexels.com/photo/close-up-of-woman-receiving-beauty-treatment-injection-34775440/
+PRP — https://www.pexels.com/photo/professional-cosmetic-treatment-procedure-in-clinic-34297957/
+Exosomes / skin treatment — https://www.pexels.com/photo/skincare-procedure-in-modern-aesthetic-clinic-36930338/
+Mesotherapy / microneedling — https://www.pexels.com/photo/facial-treatment-with-dermatology-procedure-30809949/
+Hydrafacial / facial procedure — https://www.pexels.com/photo/professional-facial-treatment-in-skincare-clinic-36930272/
+Radiesse / injectable aesthetic — https://www.pexels.com/photo/hands-with-syringe-touching-patient-face-9157201/
+Vampire lifting / regenerative treatment — https://www.pexels.com/photo/professional-cosmetic-treatment-session-31613321/
+Laser — https://www.pexels.com/photo/close-up-of-cosmetic-laser-treatment-in-clinic-37078056/
+
+Note: These are externally hosted images so an internet connection is required to display them.
+Before the final production launch, they can be downloaded and self-hosted in /assets if desired.

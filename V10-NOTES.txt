@@ -1,0 +1,12 @@
+ESTELIFE ONE V10 — Treatment Page Visual Fix
+
+Fixed:
+- All DE treatment pages now use the same white/gold reference header, topbar, navigation and footer as the homepage.
+- All EN treatment pages now use the same current visual system.
+- All TR treatment pages now use the same current visual system.
+- Treatment pages include the same desktop mega-menu system.
+- Language switching remains available on treatment detail pages.
+- Treatment hero, facts, process, FAQ, CTA and related-treatment sections visually aligned with the homepage.
+- Rounded premium visual language preserved.
+- Treatment content and treatment-specific images preserved.
+- Local reference validation: 0 broken links/assets.

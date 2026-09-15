@@ -1,0 +1,19 @@
+ESTELIFE ONE V7
+
+Changes:
+- Treatment overview changed to 4 cards per row (4 + 4).
+- Decorative circular treatment icons removed.
+- Treatment cards enlarged and simplified for a more premium editorial layout.
+- All 10 treatment detail pages rebuilt with:
+  * professional introductory copy
+  * treatment time
+  * typical downtime
+  * result/onset information
+  * typical longevity or treatment series
+  * step-by-step process
+  * suitability section
+  * important medical notes
+  * expanded FAQ
+  * correct treatment-specific image
+- DE / EN / TR treatment page structures updated.
+- All time ranges are presented as typical guidance and may vary individually.

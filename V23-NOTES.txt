@@ -1,0 +1,9 @@
+ESTELIFE ONE V23 — Global Header/Footer Consistency
+- Restored DE/EN/TR language switcher on every treatment page, including FUE, DHI and Hair PRP.
+- Standardized the full premium header across every treatment page.
+- Standardized the exact same footer structure/content/design across every treatment page per language.
+- Hair mega-menu remains persistent on every treatment page.
+- German treatment pages retain Impressum between Wissen and Kontakt.
+- English/Turkish treatment pages link to the German legal Impressum from the footer.
+- Treatment pages patched: 39
+- Broken local references: 0

@@ -1,0 +1,7 @@
+ESTELIFE ONE V26 — User-approved first four specialty images
+Replaced with the exact four images supplied by the user, in order:
+1. Haartransplantation
+2. Botox
+3. Lippen Filler
+4. PRP Exosomen
+Existing DE / EN / TR card references preserved, so all three homepages use the same approved assets.

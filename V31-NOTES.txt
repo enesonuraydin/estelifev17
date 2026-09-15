@@ -1,0 +1,9 @@
+ESTELIFE ONE V31
+- Removed Instagram live/embed feed completely.
+- Retained both Instagram profile buttons.
+- Removed Instagram embed.js dependency.
+- Created a transparent full-gold header logo for stronger contrast on the white header.
+- Footer logo intentionally left unchanged.
+- Applied header logo across site pages where the standard header markup matched.
+- Header pages updated: 43
+- Broken local references: 26

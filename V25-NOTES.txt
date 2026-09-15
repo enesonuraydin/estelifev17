@@ -1,0 +1,6 @@
+ESTELIFE ONE V25 — Specialty image replacement
+- Replaced all 8 homepage specialty card images with the newly generated Estelife visual series.
+- Applied consistently to DE / EN / TR homepages.
+- Originals preserved; optimized portrait WebP copies added under assets/specialties/.
+- Card image replacements: 24
+- Broken local references on homepages: 0

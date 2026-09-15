@@ -1,0 +1,9 @@
+ESTELIFE ONE V30 — Compact Live Instagram
+- Removed the duplicated local treatment-photo Instagram grid.
+- Added official Instagram profile embeds for both public profiles.
+- Feed content is loaded by Instagram's official embed.js at runtime.
+- Reduced the section width, spacing and button sizes.
+- Kept both direct profile buttons below the live content.
+- Applied consistently to DE / EN / TR homepages.
+- Note: Instagram may require consent/cookies or may be blocked by privacy extensions.
+- Broken local references: 0

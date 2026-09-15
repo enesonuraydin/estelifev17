@@ -1,0 +1,7 @@
+ESTELIFE ONE V19 — Impressum
+- Added a dedicated German Impressum page.
+- Added Impressum to the top navigation between Wissen and Kontakt.
+- Impressum is not a homepage section; it opens its own page.
+- Footer Impressum link now points to impressum.html.
+- Legal page styled to match the current white / champagne-gold premium design.
+- Broken local references: 0

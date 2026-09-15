@@ -1,0 +1,6 @@
+ESTELIFE ONE V35 — Unified Treatment Images
+- Standardized treatment detail image frames to 4:3 across treatment pages.
+- Images now fill the same frame using object-fit: cover without distortion.
+- Reduced treatment-image corner radius from the previous rounded style to 8px (7px mobile).
+- No content/navigation changes.
+- Broken local references: 0

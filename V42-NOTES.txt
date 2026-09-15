@@ -1,0 +1,10 @@
+ESTELIFE ONE V42 — Before/After Navigation Fix
+- Fixed Startseite/Home/Ana Sayfa links on all Before & After pages.
+- Fixed About/Wissen/Kontakt links so they return to the corresponding homepage section.
+- Fixed top consultation CTA links.
+- Fixed mobile navigation links on DE / EN / TR Before & After pages.
+- Removed incorrect active state from Startseite; only Before & After remains active.
+- Kept the treatments mega menu intact.
+- Patched pages: ['vorher-nachher.html', 'en/before-after.html', 'tr/oncesi-sonrasi.html']
+- Dead fragment-only header/mobile links: [('en/before-after.html', 'About us', '#about'), ('en/before-after.html', 'Free consultation', '#kontakt'), ('en/before-after.html', 'About us', '#about'), ('en/before-after.html', 'Free consultation', '#kontakt')]
+- Broken local references: 0

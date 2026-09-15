@@ -1,0 +1,9 @@
+ESTELIFE ONE V15 — Static Treatment Cards / Premium Light Border
+- Removed every treatment-card zoom, scale and translate hover effect.
+- Removed image zoom completely.
+- Reserved a fixed 52px tag area so labels no longer change card height.
+- Tags now fade in only; no vertical movement or expansion.
+- Added a slow 5.8s champagne-gold light that travels around the card border.
+- Added only a very soft static shadow change on hover.
+- Touch devices show tags permanently and disable the orbit animation.
+- Reduced-motion users receive a static gold border.

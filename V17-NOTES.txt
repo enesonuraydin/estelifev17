@@ -1,0 +1,9 @@
+ESTELIFE ONE V17 — Mobile Polish + Conversion
+- Premium full-screen mobile navigation
+- Animated hamburger-to-close icon
+- Better mobile hero spacing and typography
+- Mobile sticky consultation + WhatsApp CTA
+- iOS-friendly form font sizing
+- Improved touch feedback
+- Reduced mobile section spacing
+- Desktop visual style preserved

@@ -1,0 +1,23 @@
+ESTELIFE ONE V6 — Reference Visual Edition
+
+This version transforms the homepage into the approved white / gold reference style:
+- white premium navigation
+- gold typography and CTAs
+- large editorial hero
+- 25% monthly campaign card
+- treatment image cards with individual URLs
+- dark trust strip
+- visual 'why Estelife' section
+- before/after section
+- knowledge section
+- consultation form
+- professional WhatsApp button
+- DE / EN / TR structure preserved
+- existing treatment URLs preserved
+
+Open index.html to preview locally.
+
+Brand phone: +49 176 23356761
+Locations shown: Köln / Düsseldorf / Wuppertal
+
+All files are editable HTML/CSS/JS. Treatment visuals are local image assets in /assets.

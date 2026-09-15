@@ -1,0 +1,9 @@
+ESTELIFE ONE V32 — Hair Detail Treatment Images
+- Added separate visual for FUE detail page.
+- Added separate visual for DHI detail page.
+- Added separate visual for Sapphire FUE / Haartransplantation detail page.
+- Added separate visual for Haar-PRP detail page.
+- Applied to German, English and Turkish equivalents.
+- Fixed the deep-page gold header logo paths from V31.
+- Treatment pages updated: 12
+- Broken local references: 0

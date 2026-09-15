@@ -1,0 +1,7 @@
+ESTELIFE ONE V28 — Hair Focus Hero Image
+- Replaced the homepage hero image next to the Hair Transplant focus copy.
+- Used the user-approved man touching his hair with Estelife wall branding.
+- Applied to DE / EN / TR homepages for visual consistency.
+- Added desktop/mobile object-position tuning.
+- Homepages updated: 3
+- Broken local references: 0

@@ -1,0 +1,6 @@
+ESTELIFE ONE V40 — Typography Revert
+- Reverted V39 line-height / letter-spacing tightening.
+- Restored the previous homepage specialty section typography rhythm.
+- Restored treatment-page and Impressum text spacing to the pre-V39 feel.
+- Kept the separate Before & After page and gallery structure from V39.
+- Broken local references: 0

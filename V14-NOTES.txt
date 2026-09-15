@@ -1,0 +1,8 @@
+ESTELIFE ONE V14 — Treatment Hover Fix
+- Removed treatment image zoom on hover.
+- Reduced card lift from aggressive motion to a subtle 3px elevation.
+- Reduced shadow intensity.
+- Made treatment subcategory reveal shorter and smoother.
+- Reduced pill size and visual weight.
+- Removed zoom from large supporting image panels.
+- Disabled hover movement on touch devices.

@@ -1,0 +1,4 @@
+ESTELIFE ONE V34
+- Removed only the V33 thin gold underline hover effect from top navigation.
+- Restored the previous navigation hover appearance.
+- All other V33 premium polish improvements retained.

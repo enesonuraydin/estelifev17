@@ -1,0 +1,9 @@
+ESTELIFE ONE V16 — Button Hover + Hover Mega Menu
+- Removed the chevron next to Behandlungen / Treatments / Tedaviler.
+- Desktop mega menu now opens by hovering over the nav label; no click required.
+- Mega menu fades/slides in smoothly and stays open while pointer is inside.
+- Added keyboard support and Escape-to-close.
+- Primary CTA buttons now use a simple premium color-change hover (gold to dark charcoal).
+- Removed flashy shine sweep from primary buttons.
+- Secondary buttons get a subtle warm-gold hover.
+- Touch/mobile behavior remains click-based.

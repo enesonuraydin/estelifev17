@@ -1,0 +1,10 @@
+ESTELIFE ONE V41 — Before/After Mega Menu Consistency Fix
+- Replaced the desktop header on DE/EN/TR Before & After pages with the known-working language homepage header.
+- Added the full treatments mega menu to all three Before & After pages.
+- Standardized mobile menus on those pages too.
+- Language switcher now opens the corresponding Before & After page in DE / EN / TR.
+- Audited the full project for mega-trigger pages missing their mega menu.
+- Patched pages: ['vorher-nachher.html', 'en/before-after.html', 'tr/oncesi-sonrasi.html']
+- Trigger without mega-menu after patch: []
+- Suspicious plain treatment links without mega-menu after patch: []
+- Broken local references: 0

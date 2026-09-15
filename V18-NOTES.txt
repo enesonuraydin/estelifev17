@@ -1,0 +1,7 @@
+ESTELIFE ONE V18 — Hair Transplant First
+- Hair transplantation is now the primary homepage focus.
+- Added FUE, DHI, Sapphire FUE and Hair PRP focus section.
+- Hair mega-menu has dedicated subcategories.
+- Added separate FUE, DHI and Hair PRP pages in DE / EN / TR.
+- Existing aesthetic treatments remain below.
+- Broken local references: 0
