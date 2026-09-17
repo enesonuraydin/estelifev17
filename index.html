@@ -278,7 +278,7 @@
           <a class="reference-btn reference-btn-gold" href="#kontakt">Kostenlose Beratung →</a>
         </div>
         <div class="clinic-experience-visual reveal">
-          <img loading="lazy" decoding="async" src="assets/clinic-poster.jpg" alt="Estelife Hair & Aesthetic">
+          <img loading="lazy" decoding="async" src="assets/experience/estelife-consultation.png" alt="Estelife Hair & Aesthetic">
         </div>
       </div>
     </section>
@@ -310,26 +310,36 @@
           </div>
         </div>
 
-        <form class="reference-form" id="contactForm">
-          <label>Vor- und Nachname<input type="text" name="name" required></label>
-          <label>Telefon / WhatsApp<input type="tel" name="phone" required></label>
+        <form class="reference-form" id="contactForm" action="https://formspree.io/f/xyezyzov" method="POST">
+          <input type="text" name="_gotcha" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="_subject" value="Neue Kontaktanfrage – Estelife">
+          <label>Vor- und Nachname<input type="text" name="name" autocomplete="name" required></label>
+          <label>Telefon / WhatsApp<input type="tel" name="phone" autocomplete="tel" required></label>
+          <label>E-Mail<input type="email" name="email" autocomplete="email" required></label>
           <label>Behandlung
-            <select name="service">
-              <option>Bitte auswählen</option>
-              <option>Haartransplantation</option>
-              <option>Botox</option>
-              <option>Lippen & Filler</option>
-              <option>PRP / Exosomen</option>
-              <option>Mesotherapie</option>
-              <option>Hydrafacial</option>
-              <option>Radiesse / Vampir-Lifting</option>
-              <option>Soprano ICE Titanium</option>
+            <select name="service" required>
+              <option value="" selected disabled>Bitte auswählen</option>
+              <option>Haartransplantation</option><option>Botox</option><option>Lippen & Filler</option><option>PRP / Exosomen</option><option>Mesotherapie</option><option>Hydrafacial</option><option>Radiesse / Vampir-Lifting</option><option>Soprano ICE Titanium</option>
             </select>
           </label>
           <label>Nachricht<textarea name="message" rows="4"></textarea></label>
-          <button class="reference-book reference-form-button" type="submit">Kostenlose Beratung anfragen</button>
-          <div class="form-success" role="status">Vielen Dank! Wir melden uns schnellstmöglich bei Ihnen.</div>
+          <label class="form-consent"><input type="checkbox" name="privacy_consent" value="Ja" required><span>Ich stimme zu, dass meine Angaben zur Bearbeitung meiner Anfrage verwendet werden.</span></label>
+          <button class="reference-book reference-form-button" type="submit" data-idle="Kostenlose Beratung anfragen" data-sending="Wird gesendet…">Kostenlose Beratung anfragen</button>
+          <div class="form-success" role="status" aria-live="polite">Vielen Dank! Ihre Anfrage wurde erfolgreich übermittelt. Wir melden uns schnellstmöglich bei Ihnen.</div>
+          <div class="form-error" role="alert" aria-live="assertive">Die Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns per WhatsApp.</div>
         </form>
+      </div>
+
+      <div class="ref-container">
+        <div class="reference-contact-map reveal">
+          <div class="reference-contact-map-frame">
+            <iframe title="Estelife Hair & Aesthetic – Google Maps" src="https://www.google.com/maps?q=50.8848727,7.0628993&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+          <div class="reference-contact-map-bar">
+            <div class="reference-contact-map-copy"><small>STANDORT</small><strong>Klingerstraße 10a, 51143 Köln</strong></div>
+            <a class="reference-map-btn" href="https://maps.app.goo.gl/7v7Q8rrBapGEu9DKA" target="_blank" rel="noopener noreferrer">Route planen →</a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -355,8 +365,8 @@
 </section>
 
   <section class="v12-trust section"><div class="ref-container"><div class="v12-small-head"><span>WARUM ESTELIFE</span></div><div class="v12-trust-grid"><article class="v12-trust-item reveal"><span>01</span><h3>Medizinische Expertise</h3><p>Fundierte Beratung und sorgfältig ausgewählte Behandlungskonzepte.</p></article><article class="v12-trust-item reveal"><span>02</span><h3>Individuelle Behandlung</h3><p>Planung nach Anatomie, Wunsch und Ausgangssituation – statt Standardschablone.</p></article><article class="v12-trust-item reveal"><span>03</span><h3>Persönliche Nachsorge</h3><p>Klare Empfehlungen und persönliche Begleitung auch nach der Behandlung.</p></article></div></div></section>
-<section class="v12-medical section"><div class="ref-container v12-medical-grid"><div class="v12-medical-visual reveal"><img loading="lazy" src="assets/clinic-poster.jpg" alt="Estelife"></div><div class="v12-medical-copy reveal"><span class="reference-eyebrow">MEDIZINISCHE KOMPETENZ</span><h2>Vertrauen beginnt mit persönlicher Beratung.</h2><p>Nachvollziehbare Aufklärung, natürliche Proportionen und medizinisch verantwortungsvolle Entscheidungen stehen bei Estelife im Mittelpunkt.</p><a class="reference-btn reference-btn-gold" href="#kontakt">Beratung vereinbaren →</a></div></div></section>
-<section class="v12-proof section"><div class="ref-container"><div class="reference-section-heading"><span>ERGEBNISSE</span><h2>Natürlichkeit, die man sieht.</h2><i></i><p class="section-subcopy">Behandlungsergebnisse sind individuell. In der Beratung besprechen wir realistische Ziele.</p></div><div class="v12-proof-frame"><div class="v12-proof-image"><img loading="lazy" src="assets/hair-transplant.jpg" alt="Hair treatment reference"></div><div class="v12-proof-divider">→</div><div class="v12-proof-image"><img loading="lazy" src="assets/treatment-hair.jpg" alt="Hair treatment result reference"></div></div></div></section>
+<section class="v12-medical section"><div class="ref-container v12-medical-grid"><div class="v12-medical-visual reveal"><img loading="lazy" src="assets/homepage-v46/medical-consultation.webp" alt="Estelife"></div><div class="v12-medical-copy reveal"><span class="reference-eyebrow">MEDIZINISCHE KOMPETENZ</span><h2>Vertrauen beginnt mit persönlicher Beratung.</h2><p>Nachvollziehbare Aufklärung, natürliche Proportionen und medizinisch verantwortungsvolle Entscheidungen stehen bei Estelife im Mittelpunkt.</p><a class="reference-btn reference-btn-gold" href="#kontakt">Beratung vereinbaren →</a></div></div></section>
+<section class="v12-proof section"><div class="ref-container"><div class="reference-section-heading"><span>ERGEBNISSE</span><h2>Natürlichkeit, die man sieht.</h2><i></i><p class="section-subcopy">Behandlungsergebnisse sind individuell. In der Beratung besprechen wir realistische Ziele.</p></div><div class="v12-proof-frame"><div class="v12-proof-image"><img loading="lazy" src="assets/homepage-v46/results-hair-before-after.webp" alt="Hair treatment reference"></div><div class="v12-proof-divider">→</div><div class="v12-proof-image"><img loading="lazy" src="assets/homepage-v46/results-aesthetic-before-after.webp" alt="Hair treatment result reference"></div></div></div></section>
 <section class="v12-reviews section"><div class="ref-container"><div class="reference-section-heading"><span>PATIENTENERLEBNIS</span><h2>Eine gute Behandlung beginnt mit Vertrauen.</h2><i></i></div><div class="v12-review-grid"><article class="v12-review reveal"><div class="v12-quote">“</div><p>Persönliche Beratung statt Behandlung nach Schema.</p></article><article class="v12-review reveal"><div class="v12-quote">“</div><p>Klare Kommunikation vor, während und nach dem Termin.</p></article><article class="v12-review reveal"><div class="v12-quote">“</div><p>Natürliche Ergebnisse stehen im Mittelpunkt.</p></article></div></div></section>
 <section class="v12-locations section"><div class="ref-container"><div class="reference-section-heading"><span>STANDORTE</span><h2>Persönlich für Sie da.</h2><i></i></div><div class="v12-location-grid"><article><span>01</span><h3>Köln</h3><p>Klingerstraße 10a · 51143 Köln</p><small>Termine nach Vereinbarung</small></article><article><span>02</span><h3>Wuppertal</h3><p>Estelife Hair & Aesthetic</p><small>Termine nach Vereinbarung</small></article></div></div></section><footer class="reference-footer">
     <div class="ref-container reference-footer-grid">

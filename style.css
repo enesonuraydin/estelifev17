@@ -2711,3 +2711,137 @@ a:focus-visible,button:focus-visible{outline:2px solid rgba(184,139,68,.68);outl
 .legal-content{
   letter-spacing:normal!important;
 }
+
+
+/* V45 — Formspree contact form */
+.form-honeypot{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important}
+.form-error{display:none;padding:14px;background:#fff1f0;color:#8a2f28;font-size:12px;border-radius:12px}
+.form-error.show{display:block}
+.reference-form-button:disabled{opacity:.65;cursor:wait}
+.reference-form .form-consent{display:flex!important;grid-template-columns:none!important;align-items:flex-start;gap:10px;font-size:10px;line-height:1.45;color:#6f685f;cursor:pointer}
+.reference-form .form-consent input{width:15px;height:15px;min-width:15px;margin:1px 0 0;padding:0;border:1px solid #c9c0b3;accent-color:#b4935b}
+
+
+/* =========================================================
+   V49 — IMAGE PROTECTION + MINIMAL ESTELIFE GOLD CURSOR
+   ========================================================= */
+
+/* Restore the original, non-animated gold treatment-focus emphasis */
+.reference-hero h1 em{
+  position:static;
+  display:inline;
+  background:none;
+  -webkit-background-clip:border-box;
+  background-clip:border-box;
+  -webkit-text-fill-color:currentColor;
+  color:var(--ref-gold);
+  animation:none;
+}
+
+/* Lightweight deterrence against casual image saving/dragging */
+img{
+  -webkit-user-drag:none;
+  user-drag:none;
+}
+
+/* V50 — native-speed Estelife cursor + contact map */
+
+.reference-contact-map{margin-top:38px;border:1px solid rgba(212,164,90,.28);border-radius:18px;overflow:hidden;background:#f4efe7;box-shadow:0 18px 50px rgba(0,0,0,.13)}
+.reference-contact-map-frame{height:360px;background:#eee8df}
+.reference-contact-map iframe{display:block;width:100%;height:100%;border:0;filter:saturate(.72) contrast(.96)}
+.reference-contact-map-bar{display:flex;align-items:center;justify-content:space-between;gap:22px;padding:18px 22px;background:#fff;color:#171717}
+.reference-contact-map-copy{display:grid;gap:3px}
+.reference-contact-map-copy small{font-size:9px;letter-spacing:.18em;color:#b4935b;font-weight:700}
+.reference-contact-map-copy strong{font-size:14px;font-weight:600}
+.reference-map-btn{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 18px;border-radius:999px;background:#b4935b;color:#fff!important;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+@media(max-width:720px){.reference-contact-map{margin-top:26px;border-radius:14px}.reference-contact-map-frame{height:285px}.reference-contact-map-bar{align-items:flex-start;flex-direction:column;padding:16px}.reference-map-btn{width:100%}}
+
+
+/* =========================================================
+   V53 — MOBILE AUDIT / POLISH
+   Keeps desktop design intact; improves phone layouts.
+   ========================================================= */
+@media (max-width:700px){
+  html, body{max-width:100%;overflow-x:hidden}
+  body.menu-open{overflow:hidden}
+
+  /* Header */
+  .reference-header{height:68px}
+  .reference-header-inner{min-height:68px!important}
+  .reference-logo img{width:auto!important;max-width:132px!important;height:auto!important;max-height:44px!important}
+  .reference-menu-toggle{width:42px!important;height:42px!important;border-radius:11px!important}
+  .mobile-menu{inset:68px 0 0 0!important;padding:22px 18px 112px!important}
+  .mobile-menu > a:not(.mobile-menu-cta){font-size:27px!important;padding:15px 0!important}
+
+  /* Homepage hero */
+  .reference-hero-copy{padding:38px 17px 26px!important}
+  .reference-hero h1{font-size:clamp(38px,10.7vw,46px)!important;line-height:1!important}
+  .reference-hero-visual{height:clamp(320px,94vw,390px)!important}
+  .reference-offer{max-width:128px!important}
+  .reference-benefits{gap:10px 8px!important}
+
+  /* Homepage content rhythm */
+  .reference-story-visual{height:clamp(350px,108vw,430px)!important}
+  .reference-story-copy h2,
+  .reference-contact h2{font-size:clamp(36px,10vw,42px)!important;overflow-wrap:anywhere}
+  .reference-results-grid{gap:14px!important}
+  .reference-results-grid article img{height:auto!important;aspect-ratio:4/3;object-fit:cover}
+  .reference-knowledge-grid article{padding:24px!important}
+
+  /* Contact + map */
+  .reference-contact-grid{gap:42px!important}
+  .reference-contact-details strong{overflow-wrap:anywhere}
+  .reference-contact-map-frame{height:260px!important}
+  .reference-contact-map-bar{gap:14px!important}
+  .reference-map-btn{min-height:46px!important}
+
+  /* Forms: comfortable touch targets and no iOS zoom */
+  .reference-form input,
+  .reference-form select,
+  .reference-form textarea,
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea{
+    min-height:48px;
+    font-size:16px!important;
+  }
+  .reference-form textarea,.contact-form textarea{min-height:125px}
+
+  /* Footer should clear the fixed mobile CTA */
+  .reference-footer{padding-bottom:22px}
+  .reference-footer a{overflow-wrap:anywhere}
+
+  /* Treatment detail pages */
+  .treatment-v7-hero{padding:38px 0 42px!important}
+  .treatment-v7-copy{max-width:none!important}
+  .treatment-v7-copy h1{
+    font-size:clamp(34px,10vw,44px)!important;
+    line-height:1.02!important;
+    overflow-wrap:anywhere!important;
+  }
+  .treatment-v7-image{border-radius:7px!important}
+  .treatment-v7-facts{padding:26px 0 30px!important}
+  .treatment-v7-facts-grid>div{padding:20px 0 16px!important}
+  .treatment-v7-two-col h2{font-size:clamp(34px,9.5vw,40px)!important}
+  .treatment-v7-safety-grid article{padding:24px!important}
+  .treatment-v7-safety-grid h3{font-size:25px!important}
+  .hair-subcategories-grid a{min-height:116px!important}
+
+  /* Before / After */
+  .before-after-hero{padding:54px 0 40px!important}
+  .before-after-hero h1{font-size:clamp(42px,13vw,56px)!important}
+  .before-after-tabs{margin:26px auto 30px!important}
+  .before-after-tab{min-height:44px;padding:10px 16px!important}
+  .before-after-gallery-section{padding:44px 0 72px!important}
+
+  /* Keep fixed CTA from covering the last content on modern iPhones */
+  .mobile-sticky-cta{bottom:max(10px,env(safe-area-inset-bottom))!important}
+  body{padding-bottom:calc(82px + env(safe-area-inset-bottom))!important}
+}
+
+@media (max-width:380px){
+  .reference-logo img{max-width:118px!important}
+  .reference-hero h1{font-size:37px!important}
+  .reference-section-heading h2{font-size:24px!important}
+  .mobile-menu > a:not(.mobile-menu-cta){font-size:25px!important}
+}

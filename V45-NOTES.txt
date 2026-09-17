@@ -1,0 +1,6 @@
+V45 — Formspree contact form
+- Connected DE/EN/TR homepage contact forms to https://formspree.io/f/xyezyzov
+- Added required email field and privacy-consent checkbox
+- Added honeypot spam field
+- Added AJAX submission with localized loading, success and error states
+- Removed previous mailto behavior and duplicate submit handler

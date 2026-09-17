@@ -7,19 +7,21 @@ document.addEventListener("DOMContentLoaded",()=>{
  document.addEventListener("keydown",e=>{if(e.key==="Escape")close()});
  const items=document.querySelectorAll(".reveal"); if("IntersectionObserver" in window){const obs=new IntersectionObserver((entries,o)=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add("visible");o.unobserve(e.target)}}),{threshold:.12});items.forEach(i=>obs.observe(i))}else items.forEach(i=>i.classList.add("visible"));
  if(year)year.textContent=new Date().getFullYear();
- form?.addEventListener("submit",e=>{e.preventDefault();const d=new FormData(form);const subject=encodeURIComponent(`Beratungsanfrage – ${d.get("service")||"Estelife"}`);const body=encodeURIComponent(`Name: ${d.get("name")}\nTelefon: ${d.get("phone")}\nE-Mail: ${d.get("email")}\nBehandlung: ${d.get("service")}\n\nNachricht:\n${d.get("message")}`);window.location.href=`mailto:info@estelifehairaesthetic.de?subject=${subject}&body=${body}`;const s=form.querySelector(".form-success");if(s){s.textContent=document.documentElement.lang==="tr"?"Teşekkür ederiz! Talebiniz e-posta uygulamanızda hazırlandı.":document.documentElement.lang==="en"?"Thank you! Your request has been prepared in your email app.":"Vielen Dank! Ihre Anfrage wurde in Ihrer E-Mail-Anwendung vorbereitet.";s.classList.add("show")}});
+ form?.addEventListener("submit",async e=>{
+  e.preventDefault();
+  const button=form.querySelector('button[type="submit"]'), ok=form.querySelector(".form-success"), err=form.querySelector(".form-error");
+  ok?.classList.remove("show"); err?.classList.remove("show");
+  if(!form.reportValidity()) return;
+  if(button){button.disabled=true;button.textContent=button.dataset.sending||"Sending…";}
+  try{
+   const response=await fetch(form.action,{method:"POST",body:new FormData(form),headers:{Accept:"application/json"}});
+   if(!response.ok) throw new Error("Formspree submission failed");
+   form.reset(); ok?.classList.add("show");
+  }catch(error){err?.classList.add("show");}
+  finally{if(button){button.disabled=false;button.textContent=button.dataset.idle||button.textContent;}}
+ });
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  const rf = document.querySelector(".reference-form");
-  if (rf) {
-    rf.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const ok = rf.querySelector(".form-success");
-      if (ok) ok.classList.add("show");
-    }, { capture:true });
-  }
-});
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -162,4 +164,11 @@ document.addEventListener("DOMContentLoaded",()=>{
     tabs.forEach(x=>x.classList.toggle("active",x===tab));
     panels.forEach(p=>p.hidden=p.dataset.baPanel!==target);
   }));
+});
+
+
+/* V50 — lightweight image protection; cursor uses native CSS rendering for zero movement lag. */
+document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("dragstart", (event) => { if (event.target.closest?.("img")) event.preventDefault(); });
+  document.addEventListener("contextmenu", (event) => { if (event.target.closest?.("img, picture")) event.preventDefault(); });
 });

@@ -1,0 +1,4 @@
+ESTELIFE ONE v48
+- Haartransplantation detail hero now uses the exact same image as the homepage Haartransplantation specialty card (DE/EN/TR via shared asset).
+- Added a very subtle, slow premium shimmer to the gold italic line in the homepage hero headline (e.g. “Präzise geplant.”), shared across DE/EN/TR.
+- Existing v47 consultation and results crop fixes preserved.
