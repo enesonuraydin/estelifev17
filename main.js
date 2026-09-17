@@ -120,32 +120,31 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+/* V55 — robust delegated mobile navigation */
 document.addEventListener("DOMContentLoaded", () => {
-  const menuToggle = document.querySelector(".menu-toggle");
   const mobileMenu = document.querySelector(".mobile-menu");
-
-  if (!menuToggle || !mobileMenu) return;
+  const menuToggle = document.querySelector(".reference-menu-toggle");
+  if (!mobileMenu || !menuToggle) return;
 
   const setMenu = (open) => {
     document.body.classList.toggle("menu-open", open);
     mobileMenu.classList.toggle("open", open);
     mobileMenu.setAttribute("aria-hidden", String(!open));
     menuToggle.setAttribute("aria-expanded", String(open));
+    menuToggle.setAttribute("aria-label", open ? "Menü schließen" : "Menü öffnen");
   };
 
-  const toggleMobileMenu = (e) => {
-    if (window.innerWidth <= 1050) {
+  /* Capture phase makes the button reliable even if another layer/listener overlaps it. */
+  document.addEventListener("click", (e) => {
+    const toggle = e.target.closest(".reference-menu-toggle");
+    if (toggle && window.innerWidth <= 1050) {
       e.preventDefault();
       e.stopPropagation();
       setMenu(!mobileMenu.classList.contains("open"));
+      return;
     }
-  };
-
-  menuToggle.addEventListener("click", toggleMobileMenu);
-
-  mobileMenu.querySelectorAll("a").forEach(a => {
-    a.addEventListener("click", () => setMenu(false));
-  });
+    if (e.target.closest(".mobile-menu a")) setMenu(false);
+  }, true);
 
   window.addEventListener("resize", () => {
     if (window.innerWidth > 1050) setMenu(false);

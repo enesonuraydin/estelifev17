@@ -1,0 +1,9 @@
+V55 — Definitive mobile menu + language switcher fix
+- Mobile header changed to fixed positioning so it remains visible throughout scrolling.
+- Hamburger has an explicit 44x44 touch target and maximum stacking priority.
+- Hamburger child/pseudo elements cannot intercept taps.
+- Mobile navigation click handling moved to document capture phase for reliability.
+- Added DE / EN / TR language switcher inside mobile menus, with active-language state.
+- Mobile menu uses dynamic viewport height and independent scrolling.
+- Desktop navigation remains unchanged.
+- All previous approved features retained.
