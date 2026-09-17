@@ -133,12 +133,15 @@ document.addEventListener("DOMContentLoaded", () => {
     menuToggle.setAttribute("aria-expanded", String(open));
   };
 
-  menuToggle.addEventListener("click", (e) => {
+  const toggleMobileMenu = (e) => {
     if (window.innerWidth <= 1050) {
       e.preventDefault();
+      e.stopPropagation();
       setMenu(!mobileMenu.classList.contains("open"));
     }
-  });
+  };
+
+  menuToggle.addEventListener("click", toggleMobileMenu);
 
   mobileMenu.querySelectorAll("a").forEach(a => {
     a.addEventListener("click", () => setMenu(false));

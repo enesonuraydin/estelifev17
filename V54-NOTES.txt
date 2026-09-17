@@ -1,0 +1,7 @@
+V54 — Mobile hamburger fix
+- Mobile header now remains sticky and visible while scrolling.
+- Hamburger/toggle receives an explicit high stacking level and touch-safe pointer behavior.
+- Mobile menu is fixed directly below the 68px mobile header and scrolls independently.
+- Mobile overrides prevent any scrolled/hidden header state from translating or hiding the header.
+- Existing desktop header/mega-menu behavior remains untouched.
+- V53 mobile polish, Google Maps, Formspree, image protection and classic cursor retained.
