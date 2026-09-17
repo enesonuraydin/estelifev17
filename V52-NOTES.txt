@@ -1,0 +1,4 @@
+V52 — Classic system cursor restored
+- Removed all custom Estelife cursor styling/assets.
+- Browser/OS default arrow, pointer hand and text cursor behavior restored.
+- Google Maps, image protection, contact form, hair image fixes and all prior approved changes retained.

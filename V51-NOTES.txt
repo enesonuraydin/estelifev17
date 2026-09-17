@@ -1,0 +1,7 @@
+V51 — Cursor refinement
+- Kept V50 Google Maps contact section unchanged.
+- Reduced custom cursor from 32px to 24px, close to classic system cursor size.
+- Removed hand-shaped custom pointer.
+- Interactive elements keep the same arrow shape and only invert colors: gold fill + white outline.
+- Native CSS cursor rendering retained; no JS tracking, lag, or speed modification.
+- V49 image protection and all prior site changes retained.

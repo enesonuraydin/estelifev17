@@ -1,0 +1,11 @@
+V53 — Mobile audit and polish
+- Desktop styling intentionally unchanged.
+- Improved mobile header/menu sizing and locks background scroll while menu is open.
+- Added horizontal overflow protection.
+- Refined homepage hero typography/image height and section spacing.
+- Improved mobile Results image framing.
+- Improved contact/map sizing and form touch targets; preserves 16px fields to avoid iOS zoom.
+- Added safe-area handling for the fixed mobile booking CTA.
+- Refined long treatment titles, treatment facts, safety cards and hair subcategory cards on small screens.
+- Refined Before/After mobile hero/tabs/gallery spacing.
+- Google Maps, Formspree, image protection, classic system cursor and all prior approved changes retained.

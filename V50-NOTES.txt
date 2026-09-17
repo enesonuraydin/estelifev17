@@ -1,0 +1,6 @@
+V50
+- Replaced animated follower cursor with native-speed classic arrow cursor: white fill + Estelife gold outline.
+- Added matching white/gold pointer cursor for interactive elements.
+- Kept V49 casual image save/drag deterrence.
+- Added Estelife Google Maps location to DE/EN/TR homepage contact sections with localized Maps CTA.
+- Map uses lazy-loaded Google Maps embed at the supplied Estelife location and the supplied share link for navigation.
